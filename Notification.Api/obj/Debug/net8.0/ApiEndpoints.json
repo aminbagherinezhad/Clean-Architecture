@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Notification.Api.Controllers.NotificationController",
+    "Method": "SetConfig",
+    "RelativePath": "api/Notification/config",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Notification.Api.Controllers.SetConfigRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notification.Api.Controllers.NotificationController",
+    "Method": "History",
+    "RelativePath": "api/Notification/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notification.Api.Controllers.NotificationController",
+    "Method": "Send",
+    "RelativePath": "api/Notification/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Notification.Application.DTOs.SendNotificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Notification.Api.Controllers.NotificationController",
+    "Method": "SendCustom",
+    "RelativePath": "api/Notification/send-custom",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Notification.Application.DTOs.SendNotificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
